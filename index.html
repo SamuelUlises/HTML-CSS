@@ -61,16 +61,22 @@
             <form action="">
                 <label for="nombre">
                     <span>¿Cuál es tu nombre?</span>
-                    <input type="text" id="nombre">
+                    <input type="text" name="nombre" id="nombre" autocomplete="name" required>
                 </label>
-                <label for="inicio-platzi">
-                    <span>¿Qué día iniciaste a estudiar en platzi?</span>
-                    <input type="date" id="inicio-platzi">
+                <label for="correo">
+                    <span>¿Cuál es tu correo?</span>
+                    <input type="email" name="correo" id="correo" autocomplete="email" required>
                 </label>
-                <label for="horario">
-                    <span>¿En que horario te gusta más estudiar?</span>
-                    <input type="time" id="horario">
+                <label for="pais">
+                    <span>¿En que país vives?</span>
+                    <input type="text" name="pais" id="pais" autocomplete="country" required>
                 </label>
+                <label for="cp">
+                    <span>¿Cuál es tu código postal?</span>
+                    <input type="text" name="cp" id="cp" autocomplete="postal-code" required>
+                </label>
+                <input type="submit">
+            </form>
         </main>
         <footer>
 
