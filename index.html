@@ -10,6 +10,7 @@
     </head>
     <body>
         <header class="page-header">
+            <figure class="logo">Logo</figure>
             <nav>
                 <ul id="main-nav" class="nav">
                     <li class="main-nav__item"><a href="">Home</a></li>
@@ -18,100 +19,23 @@
                     <li class="main-nav__item"><a href="">Blog</a></li>
                 </ul>
             </nav>
-            <h1 id="page-title" class="title">Soy una lista del super!</h1>
         </header>
+
         <main>
-            <div class="parent-title">
-                <p class="red-title">Texto ejemplo</p>
-            </div>
-            <div class="parent-gray-content"> 
-                <p class="text-gray-content">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed delectus quis assumenda. Pariatur iste aliquam deserunt debitis voluptas repellat unde, numquam dolorem quo nesciunt modi ab facilis sequi ipsam? Vel.</p>
-            </div>
-            
+            <aside>
+                <div class="left-menu">Elemento 1</div>
+                <div class="left-menu">Elemento 2</div>
+                <div class="left-menu">Elemento 3</div>
+                <div class="left-menu">Elemento 4</div>
+            </aside>
             <section>
-                <article>
-                </article>
+                Area Principal
             </section>
-            <ul>
-                <li>Frutas</li>
-                <ol class="conteiner">
-                    <li>Sandia</li> <br>
-                            <img src="./Images/SandiaPequeña.jpg" alt="Imagen de una Sandia" class="frutas" id="sandia">
-                    <li>Mango</li> <br>
-                        <img src="./Images/MangoChico.jpg" alt="Esto es un mango" class="frutas" id="mango">
-                    <li>Manzana</li> <br>
-                        <img src="./Images/ManzanaChica.jpg" alt="Esto es una manzana" class="frutas" id="manzana">
-                </ol>
-            </ul>
-            <ul>
-                <li>Carnes</li>
-                <ol class="conteiner">
-                    <li>Pollo</li><br>
-                        <img src="./Images/Pollo.jpg" alt="Esto es pollo" class="carnes" id="pollo">
-                    <li><a href="https://placeralplato.com/carnes/cerdo-con-salsa-de-frambuesas">
-                        Lomo de cerdo (para hacerlo en salsa de frambuesa)
-                    </a></li><br>
-                        <img src="./Images/LomoDeCerdoChico.jpg" alt="Esto es lomo de Cerdo en salsa de frambuesa" class="carnes" id="cerdo">
-                    <li>Res</li> <br>
-                        <img src="./Images/ResChico.jpg" alt="Esta es carne de res" class="carnes" id="res">
-                </ol>
-            </ul>
-            <ul>
-                <li>Verduras</li>
-                <ol class="conteiner">
-                    <li>Limón</li><br>
-                        <img src="./Images/LimonChico.jpg" alt="Estos son limones" class="verduras" id="limon">
-                    <li>Col</li><br>
-                        <img src="./Images/ColChicho.jpg" alt="Esto es una col" class="verduras" id="col"> 
-                </ol>
-            </ul>
-
-            <video controls preload="auto">
-                <source src="./Comida.mp4" >
-            </video>
-
-            <form action="">
-                <label for="nombre">
-                    <span>¿Cuál es tu nombre?</span>
-                    <input type="text" name="nombre" id="nombre" autocomplete="name" required>
-                </label>
-                <label for="correo">
-                    <span>¿Cuál es tu correo?</span>
-                    <input type="email" name="correo" id="correo" autocomplete="email" required>
-                </label>
-                <label for="pais">
-                    <span>¿En que país vives?</span>
-                    <input type="text" name="pais" id="pais" autocomplete="country" required>
-                </label>
-                <label for="cp">
-                    <span>¿Cuál es tu código postal?</span>
-                    <input type="text" name="cp" id="cp" autocomplete="postal-code" required>
-                </label>
-                <input type="submit">
-            </form>
-
-            <!-- <select name="" id="">
-                <option value="JavaScript">JavaScript</option>
-                <option value="HTML5">HTML5</option>
-                <option value="CSS3">CSS3</option>
-                <option value="Web Standars">Web Standars</option>
-            </select> -->
-
-            <input list="cursos">
-            <datalist id="cursos">
-                <option value="JavaScript"></option>
-                <option value="HTML5"></option>
-                <option value="CSS3"></option>
-                <option value="Web Standars"></option>
-            </datalist>
-            
-            <!-- Botones -->
-            <input type="submit" value="Nombre">
-            <button type="submit">Qué color te gusta?</button>
-
         </main>
         <footer>
-
+            <div>
+                <p class="about-us">About us</p>
+            </div>
         </footer>
     </body>
 </html>
