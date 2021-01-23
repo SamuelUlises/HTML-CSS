@@ -8,69 +8,39 @@ html{
     font-size: 62.5%;
 }
 
-.page-header{
-    height: 10vh;
-    background-color: gray;
+.container {
+    display: flex;
+    flex-wrap: wrap;
 }
 
-.logo{
-    font-size: 1.6rem;
-    position: absolute;
-    padding-top: 4rem;
+.c1, .c2, .c3, .c4, .c5 {
+    width: 100%;
+    min-width: 150px;
+    height: 150px;
 }
 
-.nav {
-    position: relative;
-    text-align: right;
-    list-style: none;
-    padding: 2rem;
-}
-ul.nav .main-nav__item {
-    display: inline-block;
-    font-size: 1.6rem;
-    margin: 2rem;
+.c1{
+    background-color: #003476;
 }
 
-ul.nav .main-nav__item a{
-    text-decoration: none;
-    color: white;
+.c2{
+    background-color: #0062d2;
 }
 
-aside {
-    background-color: white;
-    width: 20vw;
-    height: 80vh;
+.c3{
+    background-color: #b4d2f7;
 }
 
-.left-menu{
-    float: left;
-    margin: 2rem;
-    width: 15vw;
-    height: 15vh;
-    background-color: black;
-    border-radius: 1rem;
+.c4{
+    background-color: #d5dfef;
 }
 
-section{
-    float: right;
-    background-color: peru;
-    width: 80vw;
-    height: 80vh;
+.c5 {
+    background-color: #dfe1e5;
 }
 
-aside, section{
-    display: inline-block;
-}
-
-footer{
- display: block;
- background-color: gray;
- height: 10vh;
-}
-
-.about-us{
-    margin: -0.3rem;
-    text-align: center;
-    font-size: 1.6rem;
-    padding-top: 4rem;
+@media (min-width: 600px) {
+    .c2, .c3, .c4 {
+        width: 50%;
+    }
 }
